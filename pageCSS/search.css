@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.form {
+    width: 100%;
+    height: auto;
+    margin: 25px auto;
+}
+.form > form {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.form > form > input {
+    width: 80%;
+    height: 35px;
+    padding: 10px 15px;
+    border: 1px solid rgb(198, 198, 198);
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-right: 0;
+}
+.form > form > input:focus {
+    outline: none;
+}
+.form > form > button {
+    width: calc(100% - 80%);
+    height: 35px;
+    background: linear-gradient(to right, skyblue, palevioletred);
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(200, 200, 200);
+}
+footer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+}
+@media (max-width: 300px) {
+    footer {
+        display: none;
+    }
+}

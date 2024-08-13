@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    background: fixed;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+h4 {
+    color: black;
+    margin: 0;
+}
+#MyPack {
+    background: linear-gradient(to right, skyblue, palevioletred);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+main {
+    width: 1200px;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+}
+@media (max-width: 1000px) {
+    main {
+        width: 100%;
+        height: auto;
+    }
+}

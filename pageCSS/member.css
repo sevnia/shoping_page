@@ -1,0 +1,128 @@
+@charset "UTF-8";
+section {
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    margin: 0 auto;
+}
+section > .mypage-aside {
+    width: 250px;
+    height: auto;
+    background-color: black;
+    padding-bottom: 20px;
+    display: block;
+    color: white;
+}
+section > .mypage-aside > img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: white;
+    margin: 10px auto;
+}
+section > .mypage-aside > p {
+    font-size: large;
+    text-align: center;
+}
+section > .mypage-aside > button[id="signout"] {
+    width: 75px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+section > .mypage-aside > button[id="signout"]:hover {
+    background-color: rgb(202, 32, 32);
+    color: white;
+}
+section > .mypage-aside > ul {
+    width: 100%;
+}
+section > .mypage-aside > ul > li {
+    margin: 0;
+}
+section > .mypage-aside > ul > li > a:hover {
+    text-decoration: none;
+}
+section > .mypage-aside > ul > li > a > button {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+section > .mypage-aside > ul > li > a > button:hover {
+    /* background: linear-gradient(to right, black, rgb(235, 235, 235)); */
+    background-color: rgb(235, 235, 235);
+    border-left: 3px solid black;
+    padding: 10px 17px;
+    color: black;
+}
+section > .mypage {
+    width: 450px;
+    height: auto;
+    background-color: rgb(235, 235, 235);
+    display: block;
+    padding: 20px;
+}
+section > .mypage > hr {
+    width: 100%;
+    height: 1px;
+    background-color: darkgray;
+    margin: 10px 0px;
+}
+section > .mypage > div {
+    display: flex;
+    justify-content: space-between;
+}
+section > .mypage > div > img {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 3px solid black;
+}
+section > .mypage > div > form {
+    width: 90%;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+}
+section > .mypage > div > form > p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+section > .mypage > div > form > input {
+    width: 100%;
+    height: 30px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+section > .mypage > div > form > input:focus {
+    outline: none;
+    border: 3px solid black;
+    transition: all 0.2s;
+}
+section > .mypage > div > form > button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    float: right;
+    cursor: pointer;
+}
+section > .mypage > div > form > button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 4px 4px -4px black;
+}

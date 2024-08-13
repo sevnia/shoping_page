@@ -1,0 +1,62 @@
+@charset "UTF-8";
+section {
+    width: 300px;
+    margin: 0 auto;
+}
+section > form {
+    width: auto;
+    display: block;
+}
+section > form > p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section > form > p > a {
+    color: blue;
+}
+section > form > input {
+    width: 100%;
+    height: 30px;
+    padding: 10px 15px;
+    border: 1px solid darkgray;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;    
+}
+section > form > input:focus {
+    outline: none;
+    border: 2px solid black;
+    transition: all 0.2s;
+}
+section > form > button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+section > form > button[type="submit"]:hover {
+    border: 1px solid white;
+    background: linear-gradient(to right, skyblue, palevioletred);
+    color: white;
+}
+section > form > a {
+    float: right;
+}
+footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    footer {
+    }
+}

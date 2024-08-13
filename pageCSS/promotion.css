@@ -1,0 +1,95 @@
+@charset "UTF-8";
+main {
+    width: 1100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+main > .sec {
+    width: 750px;
+    height: auto;
+    display: block;
+}
+main > .sec > article {
+    width: 735px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+main > .sec > article > a {
+    width: 735px;
+    height: 175px;
+    position: absolute;
+    top: 0;
+}
+main > .sec > article > a:nth-child(1) {
+    left: 0%;
+}
+main > .sec > article > a:nth-child(2) {
+    left: 100%;
+}
+main > .sec > article > a:nth-child(3) {
+    left: 200%;
+}
+main > .sec > article > a:nth-child(4) {
+    left: 300%;
+}
+main > .sec > article > a:nth-child(5) {
+    left: 400%;
+}
+main > .sec > article > a > img {
+    width: 735px;
+    height: 175px;
+}
+main > .sec {
+    width: auto;
+    height: auto;
+    display: block;
+}
+main > .sec > img {
+    width: 736px;
+}
+main > .ad {
+    width: 250px;
+    height: 900px;
+    display: block;
+}
+main > .ad > .ad-List {
+    width: 250px;
+    height: 900px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+main > .ad > .ad-List > a {
+    width: 250px;
+    height: 900px;
+    background-color: transparent;
+    position: absolute;
+}
+main > .ad > .ad-List > a:nth-child(1) {
+    top: 0%;
+    background-color: blue;
+}
+main > .ad > .ad-List > a:nth-child(2) {
+    top: 100%;
+    background-color: brown;
+}
+main > .ad > .ad-List > a:nth-child(3) {
+    top: 200%;
+    background-color: orange;
+}
+@media (max-width: 1000px) {
+    main {
+        width: 100%;
+        display: block;
+    }
+    main > .sec > img {
+        width: 90%;
+        height: auto;
+    }
+}
